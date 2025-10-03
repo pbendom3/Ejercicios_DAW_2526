@@ -8,7 +8,7 @@ public class Ejercicio7 {
 
         Scanner teclado = new Scanner(System.in);
 
-        System.out.println("¿Hay jamón? (S/N)");
+        System.out.println("¿Hay jamón? (S/N)"); //pregunto al usuario si hay jamón
         char jamon = teclado.next().charAt(0);
 
         System.out.println("¿Hay aceite? (S/N)");
@@ -23,8 +23,9 @@ public class Ejercicio7 {
             System.out.println("Vamos");
         }
 
+        //miro si tengo todos los ingredientes
         if (aceite=='N' || jamon=='N' || tomate=='N'){
-            System.out.println("Vamos");
+            System.out.println("Vamos"); //si los tengo, no voy a comprar
         }else{
             System.out.println("No vamos");
         }
