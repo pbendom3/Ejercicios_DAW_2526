@@ -32,6 +32,15 @@ public class Ejercicio2_bateria_matrices {
             System.out.println("Columna " + i + ": " + suma);
         }
 
+        suma = 0;
+        for (int i = 0; i < matriz[0].length; i++) {
+
+            suma += matriz[aleatorio.nextInt(matriz.length-1)+1][i];
+
+        }
+
+        System.out.println("1 fila: " + suma);
+
 
 
 
