@@ -32,6 +32,11 @@ public class Ejercicio1_matriz {
             }
         }
 
+        System.out.println();
+
+        for (int i = 0; i < matriz.length; i++) {
+            System.out.print(matriz[i][matriz.length-1-i] + " ");
+        }
 
     }
 }

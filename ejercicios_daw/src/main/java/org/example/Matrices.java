@@ -22,8 +22,10 @@ public class Matrices {
 
         int vector[] = {1,2,3,4};
 
+        int suma = 0;
         for (int num : vector){
             System.out.println(num);
+            suma += num;
         }
 
         for (int fila[] : matriz){
